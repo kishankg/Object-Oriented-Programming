@@ -1,0 +1,30 @@
+
+1) Download the 'run.sh' file from moodle.
+2) Copy and paste it in the lab folder (the folder where you make submissions)
+3) Right-click on the file and open it in a text editor (sublime text, gedit, etc.)
+
+4) In the beginning, you will see some copy statements (the ones starting with cp). 
+	There is one cp statement for each java file to be copied from source to destination.
+
+	The format of the statement is: 'cp source destination'
+
+	Eg. consider the statement:
+	cp ~/"eclipse-workspace/Lab5/src/Student.java" ~/"Documents/Lab5/student_solution/java/"
+
+	Here, ~/ means the Home directory. 
+
+5) You need to ensure that the source path is of a java file in the eclipse workspace, like Student.java in the above example. 
+6) The destination path for all the statements is the student_solution folder in your submission directory.
+
+7) Modify the cp statements (if required) to match it with the paths in your pc. Do NOT change anything else in the file.
+8) Save and close the file. 
+9) To run the file, open a terminal and type 'bash run.sh' and press enter.
+	
+
+NOTES: 
+--> since the paths are written inside double quotes, it wouldn't be a problem if your directory names have spaces in them. 
+--> if some directory mentioned in the path does not exist, then the cp command does NOT create it. You have to ensure that the source and destination paths point to existing locations.
+
+
+10) To make a submission, save your eclipse code (Ctrl+S) and run the run.sh file.
+	After a few seconds, your scores should be displayed on the terminal.

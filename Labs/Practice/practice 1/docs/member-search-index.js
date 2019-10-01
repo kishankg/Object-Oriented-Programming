@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"<Unnamed>","c":"SimpleCalc","l":"calculate(int, int, char)"},{"p":"<Unnamed>","c":"SimpleCalc","l":"SimpleCalc()"},{"p":"<Unnamed>","c":"SimpleCalc","l":"typeCast(float, char)"}]
